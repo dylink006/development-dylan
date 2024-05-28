@@ -2,14 +2,35 @@
 description:
 ---
 
+## Project Sharing: Role-Based Access Control (RBAC)
+
+With Role-Based Access Control, each member of the team has permissions and responsibilities
+determined by their assigned role in the project. RBAC in GenOps streamlines project management by aligning access permissions with team roles, 
+ensuring efficient collaboration while maintaining security and control.
+
 ## Roles
 
 ### Available roles
 
-- **Owner**: user who created the project; has all permissions
-- **Admin**: can edit the project settings and grant access to other users
-- **Member**: can view all metrics & create scores, but cannot configure the project
-- **Viewer**: view-only access to the project, not to the configuration
+- **Owner**
+- **Admin**
+- **Member**
+- **Viewer**
 
 ### Scopes per role
 
+- **Owner**:
+    - Full access to project settings
+    - Ability to grant/revoke access to other users
+    - Complete control over project configuration and management
+- **Admin**:
+    - Edit project settings
+    - Grant/revoke access to other users
+    - Limited configuration capabilities
+- **Member**:
+    - Wiew all project metrics
+    - Create stores within the project
+    - Cannot configure project settings
+- **Viewer**:
+    - Read-only access to project details
+    - No access to project configuration
